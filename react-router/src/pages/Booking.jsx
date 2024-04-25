@@ -1,14 +1,12 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
-import { Outlet } from "react-router-dom";
-import NavBar from "../component/Navbar";
+import {Outlet} from 'react-router-dom'
 
-const Booking = () => {
-  return <div>
-<NavBar/>
-    
-    <Outlet />
-  </div>;
+const Bookings = () => {
+  return <>
+
+   <h2 className='text-2xl text-indigo-700'>this is a booking main page</h2>
+   <Outlet/>
+  </>;
 };
 
-export default Booking;
+export default Bookings;
